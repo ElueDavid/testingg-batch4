@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>k-sound <img src="headset.svg"></h1>
+        <div>
+            <label for="mail">email:</label>
+            <input onkeyup="validate()" type="email" name="mail" class="mail" required>
+        </div>
+        <div>
+            <label for="pd">password:</label>
+            <input onkeyup="validate()" type="password" name="pd" class="pd" required>
+            <p class="indication">password should be at least 6 characters*</p>
+        </div>
+        <a class="btn" href="page.html">
+            Login
+        </a>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
